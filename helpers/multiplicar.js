@@ -19,7 +19,7 @@ const crearArchivo = async (base = 5, listar=false, hasta=10) =>{
         }
         fs.writeFileSync(`./salida/tabla-${base}.csv`, salida);
 
-        return `tabla-${base}.csv `
+        return `tabla-${base}.csvgir `
     } catch (err) {
         throw err
         
